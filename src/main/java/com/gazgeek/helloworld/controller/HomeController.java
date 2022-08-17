@@ -10,5 +10,7 @@ public class HomeController {
     String home() {
         return "Hello from GazGeek!";
     }
+    @RequestMapping("/test")
+    String test() { return "hello from yanzheng.zhao"; }
 
 }
